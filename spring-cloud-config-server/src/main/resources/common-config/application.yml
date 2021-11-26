@@ -1,0 +1,10 @@
+my:
+  greeting: Hello from Config Server
+app:
+   name: My App
+   description: Welcome to ${app.name}
+db:
+   connection: "{connectionString:'http://_', username:'foo', password:'bar'}"
+   host: 127.0.0.1
+   port: 9090
+
